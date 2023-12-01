@@ -84,6 +84,7 @@ parso==0.8.3
 pexpect==4.9.0
 Pillow==10.1.0
 platformdirs==4.0.0
+plotly==5.18.0
 prompt-toolkit==3.0.41
 protobuf==4.25.1
 psutil==5.9.6
@@ -109,6 +110,7 @@ seaborn==0.13.0
 six==1.16.0
 stack-data==0.6.3
 sympy==1.12
+tenacity==8.2.3
 tensorboard==2.14.1
 tensorboard-data-server==0.7.2
 tensorflow==2.14.1
