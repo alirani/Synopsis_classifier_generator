@@ -1,0 +1,1 @@
+This is the repo for the prototype of a synopsis generator
