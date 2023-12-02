@@ -3,7 +3,7 @@ import requests
 import json
 import numpy as np
 
-def Scraper_TMDB(ids_json_filepath, export_json_filepath, CUT_IN, call_type, API_BASE_URL, API_KEY):
+def scrapper_tmdb(ids_json_filepath, export_json_filepath, CUT_IN, call_type, API_BASE_URL, API_KEY):
     with open(ids_json_filepath) as ids:
         ids_list = ids.readlines()
         all_ids_list = [json.loads(each)['id'] for each in ids_list]
